@@ -42,7 +42,7 @@ const Navbar = ({ totalItems }) => {
                     <Toolbar>
                         <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit" >
                             <img src={logo} alt="E-Shop" height="25px" className={classes.image} />
-                            {process.env.APP_TITLE}
+                            {process.env.REACT_APP_TITLE}
                         </Typography>
                         <div className={classes.grow} />
                         {location.pathname === '/' && (
